@@ -157,13 +157,21 @@ div#david h3{
     padding: 10px;
 }
 
+div#david p{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color: white;
+    
+}
+
 div#david h3:hover{
     color: var(--cor3);
 }
 
 div#david img{
     position: absolute;
-    left: 50px;
+    left: 50%;
     top: 100px;
     
         
@@ -177,6 +185,14 @@ div#cleiton h3{
 
 div#cleiton h3:hover{
     color: var(--cor3);
+}
+
+div#cleiton p{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color: white;
+    
 }
 
 div#cleiton img{
