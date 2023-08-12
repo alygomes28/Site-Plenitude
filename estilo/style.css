@@ -159,7 +159,7 @@ div#david h3{
 
 div#david p{
     position: absolute;
-    left: 50px;
+    left: 20px;
     top: 150px;
     color: white;
     
@@ -170,8 +170,9 @@ div#david h3:hover{
 }
 
 div#david img{
+    
     position: absolute;
-    left: 50%;
+    left: 46%;
     top: 100px;
     
         
@@ -189,13 +190,40 @@ div#cleiton h3:hover{
 
 div#cleiton p{
     position: absolute;
-    left: 50px;
+    left: 20px;
     top: 150px;
     color: white;
     
 }
 
 div#cleiton img{
+    position: absolute;
+    left: 50%;
+    top: 100px
+    
+        
+}
+
+div#edgar h3{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+div#edgar h3:hover{
+    color: var(--cor3);
+}
+
+div#edgar p{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    color: white;
+    text-align: left;
+    
+}
+
+div#edgar img{
     position: absolute;
     left: 50%;
     top: 100px
