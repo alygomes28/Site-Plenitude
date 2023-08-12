@@ -139,6 +139,7 @@ div#aniversário h3:hover{
 }
 
 div.pastor{
+    position: relative;
     display: inline-block;
     border: 2px solid var(--cor4);
     border-radius: 10px;
@@ -150,6 +151,7 @@ div.pastor{
 }
 
 div#david h3{
+    
     text-align: center;
     color: white;
     padding: 10px;
@@ -160,7 +162,10 @@ div#david h3:hover{
 }
 
 div#david img{
-    border: 2px solid var(--cor4);
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    
         
 }
 
@@ -172,6 +177,14 @@ div#cleiton h3{
 
 div#cleiton h3:hover{
     color: var(--cor3);
+}
+
+div#cleiton img{
+    position: absolute;
+    left: 50px;
+    top: 100px
+    
+        
 }
 
 div.biblia{
